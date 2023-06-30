@@ -20,9 +20,8 @@ body {
   clip-path: inset(50%);
 
   overflow: hidden;
-  position: absolute;
+
   white-space: nowrap;
-  width: 1px;
 }
 
 .link {
@@ -34,7 +33,7 @@ body {
 }
 
 .header-logo {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -44,7 +43,7 @@ body {
   word-spacing: 0;
 }
 .header-logo-accent {
-  color: var(--accent-color);
+  color: #f4f4fd;
   word-spacing: 0;
 }
 
@@ -190,7 +189,7 @@ body {
 }
 
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -202,7 +201,7 @@ body {
 }
 
 .footer-logo-accent {
-  color: var(--iris, #4d5ae5);
+  color: #f4f4fd;
 
   word-spacing: 0;
 }
@@ -222,23 +221,21 @@ body {
 
 .portfolio-menu-button {
   color: var(--white, #fff);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+
   background-color: #404bbf;
 }
 
 .portfolio-menu-btn {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  background-color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .portfolio-menu-btn:hover {
