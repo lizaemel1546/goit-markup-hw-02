@@ -43,7 +43,7 @@ body {
   word-spacing: 0;
 }
 .header-logo-accent {
-  color: #f4f4fd;
+  color: #2e2f42;
   word-spacing: 0;
 }
 
@@ -239,11 +239,13 @@ body {
 }
 
 .portfolio-menu-btn:hover {
-  color: var(--active-color);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .portfolio-menu-btn:focus {
-  color: var(--active-color);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .offers-title {
@@ -262,4 +264,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.offers-item-link {
+  text-decoration: none;
 }
