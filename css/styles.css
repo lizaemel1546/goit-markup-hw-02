@@ -11,12 +11,14 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: #ffffff;
 }
 
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  height: 1px;
+
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
@@ -32,16 +34,17 @@ body {
 }
 
 .header-logo {
-  color: var(--accent-color);
+  color: var(--iris, #4d5ae5);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   word-spacing: 0;
 }
 .header-logo-accent {
-  color: var(--iris, #4d5ae5);
+  color: var(--accent-color);
   word-spacing: 0;
 }
 
@@ -59,8 +62,6 @@ body {
 
 .header-menu-link:focus {
   color: var(--active-color);
-  width: 1440px;
-  height: 600px;
 }
 
 .header-address-link {
@@ -74,6 +75,14 @@ body {
 
 .header-address-link:hover {
   color: var(--active-color);
+}
+
+.header-address-link:focus {
+  color: var(--active-color);
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-menu:focus {
@@ -105,7 +114,11 @@ body {
 }
 
 .hero-btn:hover {
-  color: var(--active-color);
+  background-color: var(--active-color);
+}
+
+.hero-btn:focus {
+  background-color: var(--active-color);
 }
 
 .advantages-subtitle {
@@ -130,11 +143,15 @@ body {
 .doing-title {
   color: var(--accent-color);
   text-align: center;
-
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -146,6 +163,10 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-member {
@@ -169,18 +190,20 @@ body {
 }
 
 .footer-logo {
-  color: var(--iris, #4d5ae5);
+  color: var(--cloud, #f4f4fd);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   word-spacing: 0;
 }
 
 .footer-logo-accent {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
+
   word-spacing: 0;
 }
 
@@ -208,7 +231,7 @@ body {
   background-color: #404bbf;
 }
 
-.portfolio-menu-link {
+.portfolio-menu-btn {
   color: var(--iris, #4d5ae5);
   text-align: center;
   font-size: 16px;
@@ -218,11 +241,11 @@ body {
   letter-spacing: 0.04em;
 }
 
-.portfolio-menu-link:hover {
+.portfolio-menu-btn:hover {
   color: var(--active-color);
 }
 
-.portfolio-menu-link:focus {
+.portfolio-menu-btn:focus {
   color: var(--active-color);
 }
 
