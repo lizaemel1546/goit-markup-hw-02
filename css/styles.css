@@ -214,12 +214,6 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio-menu-button {
-  color: #fff;
-
-  background-color: #404bbf;
-}
-
 .portfolio-menu-btn {
   color: #4d5ae5;
   font-family: "Roboto", sans-serif;
